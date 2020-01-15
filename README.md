@@ -27,5 +27,5 @@ GET /sportsevents/GNFDPEF9DJCBAK1
 ## Test
 In order to run unit tests
 ```
-npm test
+npm install && npm test
 ``` 
