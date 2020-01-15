@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 const url =
-  "mongodb://user:pass@mongodb:27017/gns-api?authMechanism=SCRAM-SHA-1&authSource=admin";
+  "mongodb://mongodb:27017/gns-api";
 mongoose.connect(url, { useNewUrlParser: true });
 mongoose.connection.on("error", error => console.error(error));
 mongoose.connection.once("open", () => console.log("connected to database"));
