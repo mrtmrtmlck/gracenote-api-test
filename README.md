@@ -69,3 +69,9 @@ You can then connect to your MongoDB with username `user` and password `pass`, e
 mongodb://user:pass@mongodb:27017/gns-api?authMechanism=SCRAM-SHA-1&authSource=admin
 ```
 as well as connect to the database from your local application (sources also provided in this repository).
+
+## Test
+In order to run unit tests
+```
+npm test
+``` 
