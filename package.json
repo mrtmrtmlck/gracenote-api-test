@@ -1,0 +1,21 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "Application for API code test",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "jest --runInBand ./test"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.5",
+    "jest": "^24.9.0",
+    "mongodb-memory-server": "^6.2.1"
+  }
+}
